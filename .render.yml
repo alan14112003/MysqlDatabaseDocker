@@ -1,0 +1,6 @@
+services:
+    - name: mysql
+      plan: starter
+      env: # Định nghĩa các biến môi trường cho MySQL container
+          DB_PASSWORD: 123
+          DB_DATABASE: webtruyen_nodejs_orm
